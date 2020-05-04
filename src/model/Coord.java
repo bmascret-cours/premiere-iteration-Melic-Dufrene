@@ -10,6 +10,10 @@ import java.io.Serializable;
 public class Coord implements Serializable {
 	
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	public int x, y;
 	
 	/**
@@ -20,6 +24,7 @@ public class Coord implements Serializable {
 		this.x = x; 
 		this.y = y;
 	}
+
 
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
